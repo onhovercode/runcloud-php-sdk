@@ -19,7 +19,7 @@ trait ManagesWebApps
 	 *
 	 * @param  int $serverId
 	 * @param  array $data
-	 * @return Server
+	 * @return WebApp
 	 *
 	 */
 	public function createWebApp(int $serverId, array $data = [])

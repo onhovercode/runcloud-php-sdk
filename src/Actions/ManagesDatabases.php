@@ -90,7 +90,7 @@ trait ManagesDatabases
 	 * @param  int $serverId
 	 * @param  string $username
 	 * @param  string $password
-	 * @return Database
+	 * @return DatabaseUser
 	 *
 	 */
 	public function createDatabaseUser(string $serverId, string $username, string $password)
